@@ -1,6 +1,6 @@
 # 4_LOCAL_PASSPORT_WEBSITE
 
-**Register**
+## Register
 
 Truy cập: http://localhost:3000/register
 
@@ -14,7 +14,7 @@ Dữ liệu lưu trong MongoDB (passportAuth.users)
 <img width="1767" height="803" alt="image" src="https://github.com/user-attachments/assets/3e2ff389-e3bd-4351-91e1-cd912503a732" />
 
 
-**Login (success)**
+## Login (success)
 
 Truy cập: http://localhost:3000/login
 
@@ -28,7 +28,9 @@ Redirect đến /profile, hiển thị:
 <img width="1301" height="499" alt="image" src="https://github.com/user-attachments/assets/2024f373-b7d9-4bee-9378-9e7168ab0e95" />
 
 
-**Login (failed)**
+
+
+## Login (failed)
 
 Nhập sai username hoặc password.
 
@@ -37,7 +39,7 @@ Redirect lại /login.
 <img width="769" height="413" alt="image" src="https://github.com/user-attachments/assets/4b147822-5f18-4e59-a555-67d3d55e37a5" />
 
 
-**Profile (protected)**
+## Profile (protected)
 
 Truy cập /profile khi:
 
@@ -48,7 +50,7 @@ Truy cập /profile khi:
 Chưa login → redirect về /login.
 
 
-**Logout**
+## Logout
 
 Nhấn link Logout Nếu redirect về /login.
 
